@@ -1,8 +1,8 @@
 package main
 
 const (
-	ErrorNotFound = DictionaryErr("unknown word")
-	ErrWordExists = DictionaryErr("the word already exists")
+	ErrorNotFound       = DictionaryErr("unknown word")
+	ErrWordExists       = DictionaryErr("the word already exists")
 	ErrWordDoesNotExist = DictionaryErr("cannt update word because it does not exist")
 )
 

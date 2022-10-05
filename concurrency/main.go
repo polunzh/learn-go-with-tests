@@ -17,7 +17,7 @@ func CheckWebsites(checker WebsiteChecker, urls []string) map[string]bool {
 	}
 
 	for i := 0; i < len(urls); i++ {
-		r := <- resultChannel
+		r := <-resultChannel
 		ans[r.string] = r.bool
 	}
 

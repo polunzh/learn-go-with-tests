@@ -60,7 +60,6 @@ func TestUpdate(t *testing.T) {
 		assertDefinition(t, dict, word, newDifination)
 	})
 
-
 	t.Run("new word", func(t *testing.T) {
 		word := "test"
 		dict := Dictionary{}
